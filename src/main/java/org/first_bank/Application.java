@@ -21,7 +21,7 @@ public class Application {
     (When this customer was added to the program)
 
     -Employee
-    Username
+    Username (unique)
     Password
     FirstName
     LastName

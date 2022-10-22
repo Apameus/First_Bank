@@ -1,11 +1,11 @@
-package Serialization;
+package org.first_bank.serialization;
 
-import Repository.CreditCardRepository;
-import Repository.TransactionRepository;
-import model.CreditCard;
-import model.Customer;
-import model.Transaction;
-import services.Serializer;
+import org.first_bank.repository.CreditCardRepository;
+import org.first_bank.repository.TransactionRepository;
+import org.first_bank.model.CreditCard;
+import org.first_bank.model.Customer;
+import org.first_bank.model.Transaction;
+import org.first_bank.services.Serializer;
 
 import java.util.ArrayList;
 import java.util.List;

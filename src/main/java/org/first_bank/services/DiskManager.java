@@ -1,6 +1,5 @@
-package services;
+package org.first_bank.services;
 
-import java.lang.invoke.TypeDescriptor;
 import java.util.List;
 
 public interface DiskManager {

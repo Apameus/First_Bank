@@ -1,4 +1,4 @@
-package model;
+package org.first_bank.model;
 
 import java.time.LocalDate;
 import java.util.Objects;

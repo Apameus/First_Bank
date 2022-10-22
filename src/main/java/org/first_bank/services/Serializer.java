@@ -1,4 +1,4 @@
-package services;
+package org.first_bank.services;
 
 public interface Serializer <T> {
 

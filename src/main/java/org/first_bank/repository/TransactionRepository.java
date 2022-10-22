@@ -1,7 +1,7 @@
-package Repository;
+package org.first_bank.repository;
 
-import model.Transaction;
-import services.Repository;
+import org.first_bank.model.Transaction;
+import org.first_bank.services.Repository;
 
 import java.util.List;
 import java.util.UUID;

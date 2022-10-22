@@ -1,7 +1,7 @@
-package Repository;
+package org.first_bank.repository;
 
-import model.Customer;
-import services.Repository;
+import org.first_bank.model.Customer;
+import org.first_bank.services.Repository;
 
 import java.util.ArrayList;
 import java.util.List;

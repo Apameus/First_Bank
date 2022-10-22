@@ -1,7 +1,7 @@
-package Repository;
+package org.first_bank.repository;
 
-import model.Employee;
-import services.Repository;
+import org.first_bank.model.Employee;
+import org.first_bank.services.Repository;
 
 import java.util.List;
 
@@ -13,6 +13,10 @@ public class EmployeeRepository implements Repository<Employee> {
     }
     @Override
     public void save(Employee employee){
+        Employee existingUsername = findEmployeeByUsername(employee.username());
+        if (existingUsername != null) {
+            throw new IllegalArgumentException("Two employees with the same username found");
+        }
         employeeList.add(employee);
     }
     @Override

@@ -1,11 +1,11 @@
-package Serialization;
+package org.first_bank.serialization;
 
-import Repository.CreditCardRepository;
-import Repository.EmployeeRepository;
-import model.CreditCard;
-import model.Employee;
-import model.Transaction;
-import services.Serializer;
+import org.first_bank.repository.CreditCardRepository;
+import org.first_bank.repository.EmployeeRepository;
+import org.first_bank.model.CreditCard;
+import org.first_bank.model.Employee;
+import org.first_bank.model.Transaction;
+import org.first_bank.services.Serializer;
 
 import java.time.LocalDate;
 import java.util.UUID;

@@ -1,7 +1,7 @@
-package Repository;
+package org.first_bank.repository;
 
-import model.CreditCard;
-import services.Repository;
+import org.first_bank.model.CreditCard;
+import org.first_bank.services.Repository;
 
 import java.util.List;
 
@@ -15,6 +15,10 @@ public class CreditCardRepository implements Repository<CreditCard> {
 
     @Override
     public void save(CreditCard creditCard) {
+        CreditCard existingCard = findByNumber(creditCard.number());
+        if (existingCard != null){
+            throw new IllegalArgumentException("Two creditCards found with the same number:" + creditCard.number());
+        }
         creditCardList.add(creditCard);
     }
 

@@ -1,4 +1,4 @@
-package model;
+package org.first_bank.model;
 
 import java.util.Objects;
 

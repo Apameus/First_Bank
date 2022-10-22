@@ -1,7 +1,7 @@
-package Serialization;
+package org.first_bank.serialization;
 
-import model.CreditCard;
-import services.Serializer;
+import org.first_bank.model.CreditCard;
+import org.first_bank.services.Serializer;
 
 public class CreditCardSerializer implements Serializer<CreditCard> {
 
